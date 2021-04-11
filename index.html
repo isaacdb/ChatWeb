@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Chat estático</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id="page">
+      <header>
+        <h2>Magalu do Magazine Luiza</h2>
+      </header>
+      <div class="box-mensagens" id="boxMensagens" > 
+
+        <div class="form-mensagem-magalu">
+            <label class="lb-mensagem-magalu">Magalu</label>
+            <div class="text-mensagem-magalu">
+                <p>
+                      Boa noite, aqui quem fala é a Magalu
+                </p>
+            </div>
+        </div>
+
+        <div class="form-mensagem-magalu">
+            <label class="lb-mensagem-magalu">Magalu</label>
+            <div class="text-mensagem-magalu">
+                <p>
+                 Não temos placas de video RTX3060 por R$250 no momento
+                </p>
+            </div>
+        </div>
+        <div class="form-mensagem-magalu">
+            <label class="lb-mensagem-magalu">Magalu</label>
+            <div class="text-mensagem-magalu">
+                <p>
+                 Trabalhe durante 6 meses sem comer e viver, e poderá adiquirir a sua! ;D
+                </p>
+            </div>
+        </div>
+        <div class="form-mensagem-voce">
+            <label class="lb-mensagem-voce">Você</label>
+            <div class="text-mensagem-voce">
+                <p>
+                  Sacanagem em magalu...
+                </p>
+            </div>
+        </div>
+
+        </div>
+        <form
+        id="formAdd"
+        action="index.html"
+        method="post"
+        style="border-top: 1px solid #ccc; margin-top: 26px; padding-top: 16px;"
+        >
+          <div class="box-entrada">
+                <div class="form-entrada" id="inputText">
+                    <input id="input-msg" name="input" rows="3" placeholder="Digite algo."></input>
+                </div>
+                <div class="form-button">
+                   <button type="submit">Enviar</button>
+                </div>
+          </div>
+      </form>
+    </div>
+  </body>
+  <script src="script.js"></script>
+
+</html>

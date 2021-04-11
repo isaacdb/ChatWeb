@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Helvetica;
+    font-size: 16px;
+  }
+  h2{
+      margin-left: 6px;
+  }
+  header{
+    border-bottom: 2px solid black;
+  }
+  #page {
+    width: 25%;
+    margin: 5px auto;
+    border: 2px solid black;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 12px;
+  }
+  
+  .box-mensagens {
+    display: block;
+    margin: 8px 8px 20px 8px;
+    border: 2px solid black;
+    height: 450px;
+    overflow: auto;
+  }
+  
+  .form-comp {
+    margin-bottom: 16px;
+  }
+  
+  .text-mensagem-magalu,
+  .text-mensagem-voce{
+
+    display: flex;
+    font-size: 16px;
+    padding: 8px 6px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 3px;
+  }
+  .text-mensagem-voce p{
+      text-align: right;
+      width: 100%;
+  }
+
+  .lb-mensagem-magalu,
+  .lb-mensagem-voce{
+    width: 20%;
+  }
+  .lb-mensagem-magalu{
+      padding-left: 6px;
+    }
+
+  .lb-mensagem-voce{
+float: right;
+text-align: right;
+}
+
+  .form-mensagem-voce,
+  .form-mensagem-magalu{
+    width: 70%;
+    display: inline-block;
+    margin: 6px 0 6px 0;
+  }
+  .form-mensagem-magalu{
+    margin-left: 6px;
+  }
+  .form-mensagem-voce{
+    display: block;
+    margin-left: auto;
+    margin-right:6px;
+  }
+
+  .box-entrada{
+    display: flex;
+    margin: 0 8px 8px 8px;
+  }
+
+  .form-entrada{
+    width: 75%;
+    height: 10%;
+}
+#input-msg{
+    width: 100%;
+    height: 30px;
+}
+
+  .form-button{
+    margin: auto 3px auto 3px;
+    width: 23%;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    border:1px solid black;
+  }
